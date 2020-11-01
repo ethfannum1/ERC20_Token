@@ -104,12 +104,7 @@ contract MiToken {
     // FUNCIONES DE TIPO SETTER = las que cambian los valores de las variables del estado del smart contract.
     // ========================================================================================================================
 
-    /*  Para los métodos se especifica:
-        "Callers MUST handle false from returns (bool success). Callers MUST NOT assume that false is never returned!"
-        Pero Alberto Lasa parece que no tiene en cuenta esto y siempre retorna true. 
-    */
-
-
+   
     /*  ---------------------------------------
         Transfiere fondos de una cuenta a otra.    
         ---------------------------------------
